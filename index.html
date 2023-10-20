@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sete de Setembro</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+    <script src="teste.js"></script>
+</head>
+<body>
+   
+    <h1>11 de Setembro</h1>
+<h2>Dia do atentado terrorista sob as Torres Gemeas nos EUA</h2>
+<p>Em 2001, a Al-Qaeda realizou ataques suicidas nos EUA, sequestrando quatro aviões. Dois atingiram as Torres Gêmeas, um o Pentágono e outro caiu em Shanksville. Houve perdas de vidas e danos graves.</p>
+<div id="textos">
+<p id="txt01"style="display:none">
+  Os ataques ou atentados terroristas de 11 de setembro de 2001 (às vezes, referido apenas como 11 de setembro ou 9/11) foram uma série de ataques suicidas contra os Estados Unidos coordenados pela organização fundamentalista islâmica Al-Qaeda em 11 de setembro de 2001. Na manhã daquele dia, dezenove terroristas sequestraram quatro aviões comerciais de passageiros.Os sequestradores colidiram intencionalmente dois dos aviões contra as Torres Gêmeas do complexo empresarial do World Trade Center, na cidade de Nova Iorque, matando todos a bordo e muitas das pessoas que trabalhavam nos edifícios. Ambos os prédios desmoronaram duas horas após os impactos, destruindo edifícios vizinhos e causando vários outros danos. O terceiro avião de passageiros colidiu contra o Pentágono, a sede do Departamento de Defesa dos Estados Unidos, no Condado de Arlington, Virgínia, nos arredores de Washington, D.C.. O quarto avião caiu em um campo aberto próximo de Shanksville, na Pensilvânia, depois de alguns de seus passageiros e tripulantes terem tentado retomar o controle da aeronave dos sequestradores, que a tinham reencaminhado na direção da capital norte-americana. Não houve sobreviventes em qualquer um dos voos.<br>
+  Quase três mil pessoas morreram durante os ataques, incluindo os 227 civis e os 19 sequestradores a bordo dos aviões. A esmagadora maioria das vítimas eram civis, incluindo cidadãos de mais de 70 países. Além disso, há pelo menos um óbito secundário — uma pessoa foi descartada da contagem por um médico legista, pois teria sido morta por uma doença pulmonar devido à exposição à poeira do colapso do World Trade Center.<br>
+  Os Estados Unidos responderam aos ataques com o lançamento da Guerra ao Terror: o país invadiu o Afeganistão para derrubar o Talibã, que abrigou os terroristas da Al-Qaeda. Os norte-americanos também aprovaram o USA PATRIOT Act, um decreto assinado por George W. Bush em 26 de outubro. Muitos outros países também reforçaram a sua legislação antiterrorismo e ampliaram os poderes de aplicação da lei. Algumas bolsas de valores estadunidenses ficaram fechadas no resto da semana seguinte ao ataque e registraram enormes prejuízos ao reabrir, especialmente nas indústrias aérea e de seguro. O desaparecimento de bilhões de dólares em escritórios destruídos causou sérios danos à economia de Lower Manhattan, em Nova Iorque.<br>
+  Os danos no Pentágono foram reparados em um ano, e o Memorial do Pentágono foi construído ao lado do prédio. O processo de reconstrução foi iniciado no local do World Trade Center. Em 2006, uma nova torre de escritórios foi concluída no local, o World Trade Center 7. A torre One World Trade Center, construída no local, é um dos arranha-céus mais altos da América do Norte, com 541 metros de altura. Mais três edifícios estão previstos para serem construídos no local das antigas Torres Gêmeas, além de um memorial às vítimas dos ataques já concluído. O Memorial Nacional do Voo 93 começou a ser construído em 8 de novembro de 2009 e a primeira fase de construção foi concluída no 10.º aniversário dos atentados de 11 de setembro, em 2011.<br>
+</p>
+      
+</div>
+
+<button type="button" onclick="document.getElementById('txt01').style.display='block'">Saiba mais</button>
+<button type="button" onclick="document.getElementById('txt01').style.display='none'">Ocultar</button>
+
+        
+        <!-- Slider main container -->
+    <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          
+          <!-- Slides -->
+
+          <div class="swiper-slide"> <img src="img/wtc-11-setembro-atentado-terrorista-ny34.webp" width="800" height="200"></div>
+          <div class="swiper-slide"><img src="img/download.jpeg" width="800" height="200"></div>
+          <div class="swiper-slide"> <img src="img/_de_1200x675_11092023174627.jpg"width="800" height="200"></div>
+
+        
+    </div>
+          
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+       
+    <section class="card">
+      <!--1° linha-->
+          <div class="card__descrição">
+      <!-- 1° coluna -->
+  
+      <!--2° coluna--> 
+    
+            <div class="carrossel__container">
+            <img src="img/letraA.svg" class="descrição__imagem">
+    </section>
+        
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script>
+    
+    
+      const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction:  'horizontal',
+      loop: true,
+    
+      // If we need pagination
+      pagination: {    el: '.swiper-pagination', },
+    
+      // Navigation arrows
+      navigation: {    nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev', },
+    
+      // And if we need scrollbar
+      scrollbar: { el: '.swiper-scrollbar', },
+       });
+    </script>
+
+</body>
+</html>
